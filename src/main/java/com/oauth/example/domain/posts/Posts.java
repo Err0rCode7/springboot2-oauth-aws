@@ -1,11 +1,10 @@
-package com.oauth.example.web.domain.posts;
+package com.oauth.example.domain.posts;
 
-import com.oauth.example.web.domain.BaseTimeEntity;
+import com.oauth.example.domain.BaseTimeEntity;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 
-import javax.management.relation.Role;
 import javax.persistence.*;
 
 @Getter

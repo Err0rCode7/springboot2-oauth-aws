@@ -1,4 +1,4 @@
-package com.oauth.example.web.domain.posts;
+package com.oauth.example.domain.posts;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;

@@ -1,4 +1,4 @@
-package com.oauth.example.web.domain;
+package com.oauth.example.domain;
 
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

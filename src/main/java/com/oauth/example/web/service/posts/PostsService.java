@@ -1,7 +1,7 @@
 package com.oauth.example.web.service.posts;
 
-import com.oauth.example.web.domain.posts.Posts;
-import com.oauth.example.web.domain.posts.PostsRepository;
+import com.oauth.example.domain.posts.Posts;
+import com.oauth.example.domain.posts.PostsRepository;
 import com.oauth.example.web.dto.PostsListResponseDto;
 import com.oauth.example.web.dto.PostsResponseDto;
 import com.oauth.example.web.dto.PostsSaveRequestDto;
@@ -11,7 +11,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.stream.Collectors;
 
 @RequiredArgsConstructor

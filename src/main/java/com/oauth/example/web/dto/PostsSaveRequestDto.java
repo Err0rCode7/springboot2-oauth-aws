@@ -1,6 +1,6 @@
 package com.oauth.example.web.dto;
 
-import com.oauth.example.web.domain.posts.Posts;
+import com.oauth.example.domain.posts.Posts;
 import lombok.Builder;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
